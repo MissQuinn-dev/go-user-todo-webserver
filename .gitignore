@@ -1,0 +1,41 @@
+# --- Go build artifacts ---
+# executable binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# test output
+*.test
+
+# build folders
+/bin/
+/build/
+*.out
+
+# --- Go modules ---
+# (keep go.mod and go.sum under version control)
+# no entries here
+
+# --- Database ---
+models.db
+
+# --- Environment & config ---
+.env
+.env.*
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.bak
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.sw?
+*~
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
